@@ -55,7 +55,6 @@ atomic_tests:
       $keep = Get-Volume -FileSystemLabel "TestISO"
       $driveLetter = ($keep | Get-Volume).DriveLetter
       $instance = [activator]::CreateInstance([type]::GetTypeFromCLSID("{c08afd90-f2a1-11d1-8455-00a0c91f3880}"))
-      $instance.Document.Application.ShellExecute($driveLetter+":\hello.exe","",$driveLetter+":\")
     cleanup_command: |
       Dismount-DiskImage -ImagePath "#{path_of_iso}" | Out-Null
       Stop-process -name "hello" -Force -ErrorAction ignore
