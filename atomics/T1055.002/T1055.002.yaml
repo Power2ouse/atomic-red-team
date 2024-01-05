@@ -29,6 +29,7 @@ atomic_tests:
     name: powershell
     elevation_required: true
 - name: Winlogon Network Communication Over TCP Port 80 - Potential Process Injection
+  auto_generated_guid: d69486f2-9fd8-46f1-91b1-2bbbff49b9f6
   description: |
       This exe, when launched, attempts to connect to TWO http sites to emulate outbound HTTP activity from the winlogon.exe process.
   supported_platforms:
