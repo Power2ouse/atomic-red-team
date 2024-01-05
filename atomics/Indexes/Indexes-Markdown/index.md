@@ -459,6 +459,7 @@
   - Atomic Test #1: Build Image On Host [containers]
 - [T1055.002 Process Injection: Portable Executable Injection](../../T1055.002/T1055.002.md)
   - Atomic Test #1: Portable Executable Injection [windows]
+  - Atomic Test #2: Winlogon Network Communication Over TCP Port 80 - Potential Process Injection [windows]
 - T1218.012 Verclsid [CONTRIBUTE A TEST](https://github.com/redcanaryco/atomic-red-team/wiki/Contributing)
 - [T1562.010 Impair Defenses: Downgrade Attack](../../T1562.010/T1562.010.md)
   - Atomic Test #1: ESXi - Change VIB acceptance level to CommunitySupported via PowerCLI [linux]
@@ -966,6 +967,7 @@
 - T1098.005 Device Registration [CONTRIBUTE A TEST](https://github.com/redcanaryco/atomic-red-team/wiki/Contributing)
 - [T1055.002 Process Injection: Portable Executable Injection](../../T1055.002/T1055.002.md)
   - Atomic Test #1: Portable Executable Injection [windows]
+  - Atomic Test #2: Winlogon Network Communication Over TCP Port 80 - Potential Process Injection [windows]
 - [T1547.015 Boot or Logon Autostart Execution: Login Items](../../T1547.015/T1547.015.md)
   - Atomic Test #1: Persistence by modifying Windows Terminal profile [windows]
   - Atomic Test #2: Add macOS LoginItem using Applescript [macos]
